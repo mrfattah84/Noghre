@@ -10,7 +10,7 @@ import React from 'react';
 
 function Stats() {
   return (
-    <div className="grid lg:grid-cols-4 w-4/6 m-auto pt-28">
+    <div className="grid lg:grid-cols-4 w-4/6 m-auto pt-28 gap-5">
       <Card className="h-full lg:w-5/6">
         <CardContent className="flex flex-col justify-center items-center">
           <CardTitle className="m-5 text-primary">+1000</CardTitle>

@@ -2,9 +2,9 @@ import React from 'react';
 
 function WhyUs() {
   return (
-    <div className="flex flex-col lg:flex-row w-[63%] translate-x-7 h-4/6 self-center gap-8  mt-28">
+    <div className="flex flex-col lg:flex-row w-[63%] m-auto h-4/6 self-center gap-8  mt-28">
       <img
-        className="w-5/12 rounded-lg w-full lg:w-1/2 object-contain"
+        className="w-5/12 rounded-lg w-full lg:w-1/2 object-contain mix-blend-multiply"
         src="./Logo.png"
         alt=""
       />

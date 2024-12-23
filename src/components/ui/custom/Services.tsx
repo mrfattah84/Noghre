@@ -25,7 +25,7 @@ function Services() {
       <ul className="grid md:grid-cols-3 lg:grid-cols-3 gap-5">
         {data.map((service) => (
           <li key={service.id} className="flex items-center justify-center">
-            <Link to={`service/${service.documentId}`} className='h-full'>
+            <Link to={`service/${service.articleId}`} className="h-full">
               <Card className="h-full lg:w-5/6">
                 <CardHeader>
                   <Icon name={service.icon} className="w-full h-full" />

@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './home/index.tsx';
 import SignInPage from './auth/signin/index.tsx';
 import App from './App.tsx';
+import FunPage from './service/fun/index.tsx';
 
 // Import your Publishable Key
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
@@ -17,6 +18,12 @@ if (!PUBLISHABLE_KEY) {
 const router = createBrowserRouter([
   {
     element: <App />,
+    children: [
+      {
+        path: '/service/fun',
+        element: <FunPage />,
+      },
+    ]
   },
   {
     path: '/',

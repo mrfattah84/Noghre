@@ -4,12 +4,12 @@ import { Input } from '../input';
 function Footer() {
   return (
     <div className="bg-primary mt-28 flex flex-col justify-center items-center py-10">
-      <div className="flex justify-between items-center w-5/6">
+      <h1 className="text-5xl font-bold -translate-y-2">نقره</h1>
+      <div className="flex flex-col md:flex-row justify-between items-center w-5/6">
         <h2 className="text-xl font-bold">تلفن: 09330456475</h2>
-        <h1 className="text-5xl font-bold -translate-y-2">نقره</h1>
         <h2 className="text-xl font-bold">Faslenoghreh@gmail.com</h2>
       </div>
-      <div className="flex justify-between items-center w-5/6 mt-5">
+      <div className="flex flex-col gap-5 justify-between items-center w-5/6 mt-5">
         <div className="text-xl">
           برای دریافت پشتیبانی تلفنی شماره تلفن خود را وارد کنید
         </div>
